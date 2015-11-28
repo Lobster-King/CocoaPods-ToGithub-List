@@ -14,6 +14,7 @@ static NSString *CTGFileName = @"Podfile";
 static NSString *CTGPattern = @"^pod.*'(.*)'\\s*,.*$";
 static CTGFileManager *mgr = nil;
 
+#pragma mark - 递归遍历有没有Podfile文件
 + (NSString *)ctg_file_findPodfileLocalPath:(NSString *)path{
     if (!mgr) {
         mgr = [CTGFileManager defaultManager];
@@ -32,6 +33,7 @@ static CTGFileManager *mgr = nil;
     return filePath;
 }
 
+#pragma mark - 正则遍历librarys
 + (NSArray *)ctg_file_matchesCocoapodsLibriary:(NSString *)podfilePath{
     if (!podfilePath) return nil;
     
@@ -49,6 +51,7 @@ static CTGFileManager *mgr = nil;
         
         if (matches) {
             for (NSTextCheckingResult *match in matches) {
+                // 提示: 第0个,是原来的字符串,所以要从第一个开始
                 for (int i = 1; i < match.numberOfRanges; ++i) {
                     NSString *libName = [podfileLineStr substringWithRange:[match rangeAtIndex:i]];
                     [libriarys addObject:libName];
@@ -59,6 +62,7 @@ static CTGFileManager *mgr = nil;
     return libriarys;
 }
 
+#pragma mark - 递归遍历Pod search podfilePath
 + (NSString *)ctg_file_taskFindCocoapodWithLibiraryName:(NSString *)libirayName{
     if (![libirayName length]) return nil;
     

@@ -28,6 +28,7 @@ static NSString *CTGSourcePrefix = @"- Source: ";
     return self;
 }
 
+#pragma mark - 字符串操作截取HomePageUrl
 - (NSString *)getHomePageUrl{
     NSRange startRange = [self.content rangeOfString:CTGHomePagePrefix];
     if (startRange.location == NSNotFound) return @"";

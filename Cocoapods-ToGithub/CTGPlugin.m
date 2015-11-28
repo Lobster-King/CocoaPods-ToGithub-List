@@ -20,6 +20,7 @@ static Class IDEWorkspaceWindowControllerClass;
 
 @implementation CTGPlugin
 
+#pragma mark - 插件入口函数
 + (void)pluginDidLoad:(NSBundle *)plugin {
     [self shared];
 }
@@ -33,6 +34,7 @@ static Class IDEWorkspaceWindowControllerClass;
     return instance;
 }
 
+#pragma mark - 监听Xcode发出的通知
 - (instancetype)init{
     if (self = [super init]) {
         IDEWorkspaceWindowControllerClass = NSClassFromString(@"IDEWorkspaceWindowController");
@@ -46,6 +48,7 @@ static Class IDEWorkspaceWindowControllerClass;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWindownUpdate:) name:NSWindowDidUpdateNotification object:nil];
 }
 
+#pragma mark - 初始化Item
 - (void)applicationDidFinishLaunching:(NSNotification *)noti{
     NSMenuItem *appItem = [[NSApp menu] itemWithTitle:@"File"];
 
@@ -58,6 +61,7 @@ static Class IDEWorkspaceWindowControllerClass;
     [[appItem submenu] addItem:item];
 }
 
+#pragma mark - 创建控制器
 - (void)jumpGithubListVc{
     if (![self activeDocument]) {
         return;
@@ -73,6 +77,7 @@ static Class IDEWorkspaceWindowControllerClass;
     [self.showViewController showWindow:self.showViewController];
 }
 
+#pragma mark - 获取到当前项目的URL
 - (NSURL *)activeDocument
 {
     NSArray *windows = [IDEWorkspaceWindowControllerClass valueForKey:@"workspaceWindowControllers"];
@@ -88,6 +93,7 @@ static Class IDEWorkspaceWindowControllerClass;
     return nil;
 }
 
+#pragma mark - 获取到当前项目的Window
 - (void)applicationWindownUpdate:(NSNotification *)noti{
     id window = [noti object];
     if ([window isKindOfClass:[NSWindow class]] && [window isMainWindow])
