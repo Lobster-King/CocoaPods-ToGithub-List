@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4841880D1C060375000D7433 /* CTGPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4841880C1C060375000D7433 /* CTGPlugin.m */; };
+		48605E901C07735C008D1246 /* CTGPluginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48605E8E1C07735C008D1246 /* CTGPluginWindowController.m */; };
+		48605E911C07735C008D1246 /* CTGPluginWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48605E8F1C07735C008D1246 /* CTGPluginWindowController.xib */; };
+		48B9E09E1C0774B7003DDDF3 /* CTGFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B9E09D1C0774B7003DDDF3 /* CTGFileManager.m */; };
+		48C5FED21C0804450087331E /* CTGLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5FED11C0804450087331E /* CTGLibrary.m */; };
+		48EACD331C06112D008CA904 /* CTGPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EACD321C06112D008CA904 /* CTGPluginManager.m */; };
+		48F8BE1C1C080A3100855A18 /* CTGPluginTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8BE1B1C080A3100855A18 /* CTGPluginTableViewRow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		484188021C060232000D7433 /* Cocoapods-ToGithub.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocoapods-ToGithub.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484188051C060232000D7433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4841880B1C060375000D7433 /* CTGPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGPlugin.h; sourceTree = "<group>"; };
+		4841880C1C060375000D7433 /* CTGPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGPlugin.m; sourceTree = "<group>"; };
+		48605E8D1C07735C008D1246 /* CTGPluginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGPluginWindowController.h; sourceTree = "<group>"; };
+		48605E8E1C07735C008D1246 /* CTGPluginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGPluginWindowController.m; sourceTree = "<group>"; };
+		48605E8F1C07735C008D1246 /* CTGPluginWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGPluginWindowController.xib; sourceTree = "<group>"; };
+		48B9E09C1C0774B7003DDDF3 /* CTGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGFileManager.h; sourceTree = "<group>"; };
+		48B9E09D1C0774B7003DDDF3 /* CTGFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGFileManager.m; sourceTree = "<group>"; };
+		48C5FED01C0804450087331E /* CTGLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGLibrary.h; sourceTree = "<group>"; };
+		48C5FED11C0804450087331E /* CTGLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGLibrary.m; sourceTree = "<group>"; };
+		48EACD311C06112D008CA904 /* CTGPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGPluginManager.h; sourceTree = "<group>"; };
+		48EACD321C06112D008CA904 /* CTGPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGPluginManager.m; sourceTree = "<group>"; };
+		48F8BE1A1C080A3100855A18 /* CTGPluginTableViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGPluginTableViewRow.h; sourceTree = "<group>"; };
+		48F8BE1B1C080A3100855A18 /* CTGPluginTableViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGPluginTableViewRow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484187FF1C060232000D7433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484187F91C060232000D7433 = {
+			isa = PBXGroup;
+			children = (
+				484188041C060232000D7433 /* Cocoapods-ToGithub */,
+				484188031C060232000D7433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484188031C060232000D7433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484188021C060232000D7433 /* Cocoapods-ToGithub.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484188041C060232000D7433 /* Cocoapods-ToGithub */ = {
+			isa = PBXGroup;
+			children = (
+				484188051C060232000D7433 /* Info.plist */,
+				4841880B1C060375000D7433 /* CTGPlugin.h */,
+				4841880C1C060375000D7433 /* CTGPlugin.m */,
+				48EACD311C06112D008CA904 /* CTGPluginManager.h */,
+				48EACD321C06112D008CA904 /* CTGPluginManager.m */,
+				48605E8D1C07735C008D1246 /* CTGPluginWindowController.h */,
+				48605E8E1C07735C008D1246 /* CTGPluginWindowController.m */,
+				48605E8F1C07735C008D1246 /* CTGPluginWindowController.xib */,
+				48B9E09C1C0774B7003DDDF3 /* CTGFileManager.h */,
+				48B9E09D1C0774B7003DDDF3 /* CTGFileManager.m */,
+				48C5FED01C0804450087331E /* CTGLibrary.h */,
+				48C5FED11C0804450087331E /* CTGLibrary.m */,
+				48F8BE1A1C080A3100855A18 /* CTGPluginTableViewRow.h */,
+				48F8BE1B1C080A3100855A18 /* CTGPluginTableViewRow.m */,
+			);
+			path = "Cocoapods-ToGithub";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484188011C060232000D7433 /* Cocoapods-ToGithub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484188081C060232000D7433 /* Build configuration list for PBXNativeTarget "Cocoapods-ToGithub" */;
+			buildPhases = (
+				484187FE1C060232000D7433 /* Sources */,
+				484187FF1C060232000D7433 /* Frameworks */,
+				484188001C060232000D7433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocoapods-ToGithub";
+			productName = "Cocoapods-ToGithub";
+			productReference = 484188021C060232000D7433 /* Cocoapods-ToGithub.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484187FA1C060232000D7433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MakeZL;
+				TargetAttributes = {
+					484188011C060232000D7433 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 484187FD1C060232000D7433 /* Build configuration list for PBXProject "Cocoapods-ToGithub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 484187F91C060232000D7433;
+			productRefGroup = 484188031C060232000D7433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484188011C060232000D7433 /* Cocoapods-ToGithub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484188001C060232000D7433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48605E911C07735C008D1246 /* CTGPluginWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484187FE1C060232000D7433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C5FED21C0804450087331E /* CTGLibrary.m in Sources */,
+				48F8BE1C1C080A3100855A18 /* CTGPluginTableViewRow.m in Sources */,
+				48B9E09E1C0774B7003DDDF3 /* CTGFileManager.m in Sources */,
+				4841880D1C060375000D7433 /* CTGPlugin.m in Sources */,
+				48EACD331C06112D008CA904 /* CTGPluginManager.m in Sources */,
+				48605E901C07735C008D1246 /* CTGPluginWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		484188061C060232000D7433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		484188071C060232000D7433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		484188091C060232000D7433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = "Cocoapods-ToGithub/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zixue101.www.Cocoapods-ToGithub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		4841880A1C060232000D7433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = "Cocoapods-ToGithub/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zixue101.www.Cocoapods-ToGithub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484187FD1C060232000D7433 /* Build configuration list for PBXProject "Cocoapods-ToGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484188061C060232000D7433 /* Debug */,
+				484188071C060232000D7433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484188081C060232000D7433 /* Build configuration list for PBXNativeTarget "Cocoapods-ToGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484188091C060232000D7433 /* Debug */,
+				4841880A1C060232000D7433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484187FA1C060232000D7433 /* Project object */;
+}
