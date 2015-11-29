@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48F0FC821C09DE800052FA52 /* XcodeWindowColorPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F0FC811C09DE800052FA52 /* XcodeWindowColorPluginManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48F0FC771C09DD860052FA52 /* XcodeWindowColor-Plugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XcodeWindowColor-Plugin.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F0FC7A1C09DD860052FA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F0FC801C09DE800052FA52 /* XcodeWindowColorPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeWindowColorPluginManager.h; sourceTree = "<group>"; };
+		48F0FC811C09DE800052FA52 /* XcodeWindowColorPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeWindowColorPluginManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F0FC741C09DD860052FA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F0FC6E1C09DD860052FA52 = {
+			isa = PBXGroup;
+			children = (
+				48F0FC791C09DD860052FA52 /* XcodeWindowColor-Plugin */,
+				48F0FC781C09DD860052FA52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F0FC781C09DD860052FA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F0FC771C09DD860052FA52 /* XcodeWindowColor-Plugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F0FC791C09DD860052FA52 /* XcodeWindowColor-Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				48F0FC7A1C09DD860052FA52 /* Info.plist */,
+				48F0FC801C09DE800052FA52 /* XcodeWindowColorPluginManager.h */,
+				48F0FC811C09DE800052FA52 /* XcodeWindowColorPluginManager.m */,
+			);
+			path = "XcodeWindowColor-Plugin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F0FC761C09DD860052FA52 /* XcodeWindowColor-Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F0FC7D1C09DD860052FA52 /* Build configuration list for PBXNativeTarget "XcodeWindowColor-Plugin" */;
+			buildPhases = (
+				48F0FC731C09DD860052FA52 /* Sources */,
+				48F0FC741C09DD860052FA52 /* Frameworks */,
+				48F0FC751C09DD860052FA52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XcodeWindowColor-Plugin";
+			productName = "XcodeWindowColor-Plugin";
+			productReference = 48F0FC771C09DD860052FA52 /* XcodeWindowColor-Plugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F0FC6F1C09DD860052FA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MakeZL;
+				TargetAttributes = {
+					48F0FC761C09DD860052FA52 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 48F0FC721C09DD860052FA52 /* Build configuration list for PBXProject "XcodeWindowColor-Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48F0FC6E1C09DD860052FA52;
+			productRefGroup = 48F0FC781C09DD860052FA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F0FC761C09DD860052FA52 /* XcodeWindowColor-Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F0FC751C09DD860052FA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F0FC731C09DD860052FA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F0FC821C09DE800052FA52 /* XcodeWindowColorPluginManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48F0FC7B1C09DD860052FA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		48F0FC7C1C09DD860052FA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48F0FC7E1C09DD860052FA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = "XcodeWindowColor-Plugin/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zixue101.www.XcodeWindowColor-Plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		48F0FC7F1C09DD860052FA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = "XcodeWindowColor-Plugin/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zixue101.www.XcodeWindowColor-Plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F0FC721C09DD860052FA52 /* Build configuration list for PBXProject "XcodeWindowColor-Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F0FC7B1C09DD860052FA52 /* Debug */,
+				48F0FC7C1C09DD860052FA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F0FC7D1C09DD860052FA52 /* Build configuration list for PBXNativeTarget "XcodeWindowColor-Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F0FC7E1C09DD860052FA52 /* Debug */,
+				48F0FC7F1C09DD860052FA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F0FC6F1C09DD860052FA52 /* Project object */;
+}
