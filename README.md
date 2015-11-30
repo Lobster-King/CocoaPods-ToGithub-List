@@ -61,7 +61,7 @@ find ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -name Info.p
 https://github.com/luisobo/Xcode-RuntimeHeaders
 
 ### 管理Xcode插件
-https://github.com/supermarin/Alcatraz
+https://github.com/alcatraz/Alcatraz
 #### 运行脚本安装Alcatraz
 curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
 
